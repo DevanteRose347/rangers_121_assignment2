@@ -22,7 +22,7 @@
     height: 568px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #483EFF;
+    background: url(../images/Oval.png);
 }
 
 #id{
@@ -32,6 +32,8 @@
 
 .four-steps{
     display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
     width: 135px;
 height: 90px;
 flex-shrink: 0;
@@ -41,6 +43,7 @@ padding-left: 10px;
 }
 
 .right-side{
+    margin-left: 20px;
     display: inline-flex;
  padding-right: 0px;
  flex-direction: column;
@@ -51,6 +54,8 @@ padding-left: 10px;
 
 .left-side{
     display: flex;
+    border: 1px solid #022959;
+    border-radius: 100%;
  width: 16px;
  height: 23px;
  flex-direction: column;
